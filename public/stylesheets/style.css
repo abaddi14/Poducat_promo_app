@@ -1,0 +1,50 @@
+body {
+  padding: 60px;
+  background-color: white;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3, h2 {
+  color: black;
+}
+
+video {
+  width: 110%;
+}
+
+
+@media screen and (max-width: 480px) {
+  #canonLogo {
+    margin-left: 25%;
+  }
+
+  #productIMG {
+    width: 80%;
+  }
+
+  #info {
+    float: none;
+    width: 95%;
+  }
+
+  #brand {
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 480px) {
+  #canonLogo {
+    margin-left: 50%;
+  }
+
+  #productIMG {
+    width: 40%;
+  }
+
+  #info {
+    float: right;
+    width: 60%;
+  }
+}
